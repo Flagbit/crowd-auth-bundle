@@ -6,11 +6,18 @@
     "autoload": {
         "psr-0": { "Seiffert\\CrowdAuthBundle": "" }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Flagbit/crowd-rest-bundle"
+        }
+
+    ],
     "target-dir": "Seiffert/CrowdAuthBundle",
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.*",
-        "seiffert/crowd-rest-bundle": "dev-master"
+        "flagbit/crowd-rest-bundle": "dev-master"
     },
     "require-dev": {
         "phpmd/phpmd": "1.4.0",
