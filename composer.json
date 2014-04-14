@@ -1,5 +1,5 @@
 {
-    "name": "seiffert/crowd-auth-bundle",
+    "name": "flagbit/crowd-auth-bundle",
     "description": "This bundle allows Symfony apps to authenticate users against Atlassian Crowd.",
     "version": "1.0.0",
     "license": "CC-BY-SA-3.0",
